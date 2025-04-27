@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love View Estate</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/5d8166a315.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js" defer></script>
+
 </head>
 
 <body>
@@ -17,7 +20,7 @@
         <div class="logo-container">
           <a href="/index.php">
             <img
-              src="img/logo.jpg"
+              src="img/logo.png"
               alt="Love View Estate"
               class="logo"
             />
@@ -120,11 +123,11 @@
           <li class="mobile-dropdown">
             <a href="/for-rent.php">FOR RENT <i class="fas fa-chevron-down"></i></a>
             <ul class="mobile-dropdown-content">
-              <a href="/available-properties.php">Available Properties</a>
-              <a href="/to-rent-north-ayrshire.php">North Ayrshire</a>
-              <a href="/to-rent-east-ayrshire.php">East Ayrshire</a>
-              <a href="/rental-guide.php">Rental Guide</a>
-              <a href="/apply-now.php">Apply Now</a>
+              <li><a href="/available-properties.php">Available Properties</a></li>
+              <li><a href="/to-rent-north-ayrshire.php">North Ayrshire</a></li>
+              <li><a href="/to-rent-east-ayrshire.php">East Ayrshire</a></li>
+              <li><a href="/rental-guide.php">Rental Guide</a></li>
+              <li><a href="/apply-now.php">Apply Now</a></li>
             </ul>
           </li>
           <li><a href="/valuation.php" class="mobile-highlight">INSTANT VALUATION</a></li>
@@ -132,7 +135,7 @@
       </nav>
       <div class="mobile-social">
         <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
         <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
         <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
       </div>

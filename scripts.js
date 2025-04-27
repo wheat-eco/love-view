@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Toggle mobile menu
     menuToggle.addEventListener("click", () => {
+      console.log("Menu toggle clicked");
       mobileMenu.classList.add("active")
       overlay.classList.add("active")
       document.body.style.overflow = "hidden"
@@ -49,4 +50,3 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     })
   })
-  

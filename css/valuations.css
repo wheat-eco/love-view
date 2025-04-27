@@ -7,7 +7,7 @@
 .valuations-container {
   display: flex;
   flex-direction: row;
-  max-width: 1440px;
+  max-width: auto;
   margin: 0 auto;
 }
 

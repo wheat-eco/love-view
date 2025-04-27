@@ -49,36 +49,39 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
   
+  /* Adjust the header container for desktop views */
   .header-container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0.75rem 1.5rem;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    align-items: center; /* Vertically align logo and links */
     justify-content: space-between;
+    padding: 0.5rem 1.5rem; /* Reduce padding to bring elements closer */
   }
   
+  /* Adjust the logo size and spacing */
   .logo-container {
-    padding: 0.5rem 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 1rem; /* Add a small gap between the logo and links */
   }
   
   .logo {
-    height: 60px;
-    width: auto;
+    height: 100px; /* Increase the logo size */
+    width: auto; /* Maintain aspect ratio */
   }
   
-  /* Navigation Styles */
+  /* Center the navigation links */
   .nav-container {
     flex: 1;
     display: flex;
-    flex-direction: column;
-    margin: 0 2rem;
+    flex-direction: column; /* Stack top and bottom navs vertically */
+    align-items: center; /* Center the links horizontally */
+    margin: 0; /* Remove extra margin */
   }
   
   .main-nav {
     display: flex;
     justify-content: flex-end;
+    margin-top: 20px;
   }
   
   .nav-list {
@@ -104,7 +107,7 @@
   }
   
   .nav-link:hover {
-    color: var(--primary-blue);
+    color: var(--primary-gold);
   }
   
   .nav-link::after {
@@ -114,7 +117,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--primary-blue);
+    background-color: var(--primary-gold);
     transition: width 0.3s ease;
   }
   
@@ -209,6 +212,7 @@
   .social-container {
     display: flex;
     gap: 0.75rem;
+    /* Add a small gap between links and social icons */
   }
   
   .social-link {
@@ -224,7 +228,7 @@
   }
   
   .social-link:hover {
-    background-color: var(--primary-blue);
+    background-color: var( --primary-gold);
     color: var(--white);
     transform: translateY(-3px);
   }
@@ -271,6 +275,7 @@
   }
   
   .mobile-menu.active {
+    display: block;
     right: 0;
   }
   
@@ -399,8 +404,9 @@
   }
   
   .bottom-nav {
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
-    padding-top: 0.75rem;
+   
+    padding-top: 0rem;
+    margin-top: 0.3rem; /* Add a small gap between top and bottom navs */
   }
   
   /* Responsive Styles */
@@ -456,4 +462,33 @@
       height: 40px;
     }
   }
-  
+
+  @media (min-width: 992px) {
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .logo-container {
+        margin-right: 1rem;
+    }
+
+    .logo {
+        height: 100px;
+        width: auto;
+    }
+
+    .nav-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .social-container {
+        margin-top: 20px;
+    }
+  }
