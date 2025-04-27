@@ -41,7 +41,7 @@
   
   /* Header Styles */
   .header {
-    background-color: var(--white);
+    background-color: var(--dark-gray);
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
     position: sticky;
     top: 0;
@@ -100,7 +100,7 @@
     padding: 0.5rem 0;
     font-size: 0.9rem;
     font-weight: 700;
-    color: var(--dark-gray);
+    color: var(--white);
     transition: all 0.3s ease;
     position: relative;
     letter-spacing: 0.5px;
@@ -249,7 +249,7 @@
     width: 25px;
     height: 3px;
     margin: 5px 0;
-    background-color: var(--dark-gray);
+    background-color: var(--white);
     transition: all 0.3s ease;
   }
   
