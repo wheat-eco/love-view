@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rental Valuation</title>
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/valuation.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/valuation.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script src="https://kit.fontawesome.com/5d8166a315.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <?php include('../header.php'); ?>
+    <?php include('header.php'); ?>
 
     <!-- Valuation Form Section -->
     <section class="valuation-form-section">
@@ -127,6 +127,6 @@
         </div>
     </section>
 
-    <?php include('../footer.php'); ?>
+    <?php include('footer.php'); ?>
 </body>
 </html>

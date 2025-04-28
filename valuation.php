@@ -21,7 +21,7 @@
                 <p>We offer free instant online sales and rental valuations of your property, simply click the button on this page to get your results. Do remember that every property is different and we would always strongly advise you to take up our free no-obligation valuation in person by one of our experts to give you an accurate valuation of your property.</p>
             </div>
             <div class="valuation-hero-image">
-                <img src="/img/team.jpg" alt="Love View Estate Team" />
+                <img src="img/team.jpg" alt="Love View Estate Team" />
             </div>
         </div>
     </section>
@@ -30,11 +30,11 @@
     <section class="valuation-options-section">
         <div class="valuation-container">
             <div class="valuation-options-wrapper">
-                <a href="valuation/sales-valuation.php" class="valuation-option-card">
+                <a href="sales-valuation.php" class="valuation-option-card">
                     <h2>Sales Valuation</h2>
                     <i class="fas fa-arrow-right"></i>
                 </a>
-                <a href="valuation/rental-valuation.php" class="valuation-option-card">
+                <a href="rental-valuation.php" class="valuation-option-card">
                     <h2>Rental Valuation</h2>
                     <i class="fas fa-arrow-right"></i>
                 </a>
