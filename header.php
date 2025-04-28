@@ -18,9 +18,9 @@
     <header class="header">
       <div class="header-container">
         <div class="logo-container">
-          <a href="/index.php">
+          <a href="./index.php">
             <img
-              src="img/logo.png"
+              src="./img/logo.png"
               alt="Love View Estate"
               class="logo"
             />
@@ -48,7 +48,7 @@
                 <a href="/for-sale-east-ayrshire.php" class="nav-link">FOR SALE EAST AYRSHIRE</a>
               </li>
               <li class="nav-item">
-                <a href="/valuation.php" class="nav-link highlight-button"
+                <a href="valuation.php" class="nav-link highlight-button"
                   >INSTANT VALUATION</a
                 >
               </li>
